@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Compile first.c to first.o
+/opt/devkitpro/devkitARM/bin/arm-none-eabi-gcc -mthumb -mthumb-interwork -O3 -std=c99 -c main.c
+
+# Link first.o (and standard libs) to first.elf
+/opt/devkitpro/devkitARM/bin/arm-none-eabi-gcc -specs=gba_hack.specs -mthumb -mthumb-interwork main.o -o main.elf
+
+# Strip to binary-only
+/opt/devkitpro/devkitARM/bin/arm-none-eabi-objcopy -O binary main.elf main.gba
+/opt/devkitpro/devkitARM/bin/arm-none-eabi-objcopy -O binary main.elf main-unmod.gba
+
+# Fix header
+gbafix main.gba
+
+#/opt/devkitpro/devkitARM/bin/arm-none-eabi-gcc -o main.elf main.cpp  -g -Wall -O3 -mcpu=arm7tdmi -mtune=arm7tdmi -fomit-frame-pointer -ffast-math -mthumb -mthumb-interwork
+#/opt/devkitpro/devkitARM/bin/arm-none-eabi-objcopy -O binary main.elf main.gba
+#rm main.elf
