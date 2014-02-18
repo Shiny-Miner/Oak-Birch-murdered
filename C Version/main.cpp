@@ -30,10 +30,10 @@ int pointerY = 0;
 int circleinfront = 1;
 int pokemonChosen = 0;
 
-int main()
+int notMain()
 {
 	//asm("push {r0-r7}");
-	/*u16 x;
+	u16 x;
 	SetMode(MODE_0 | BG2_ENABLE | BG3_ENABLE | BG0_ENABLE | OBJ_ENABLE | OBJ_MAP_1D);
 	BG2CNT=0x0703;
 	BG3CNT=0x0601;
@@ -60,7 +60,7 @@ int main()
 
 	//Copy Tilemap
 	memcpy(&BG2Buffer[0], grasstiles, sizeof(grasstiles));
-	memcpy(&BG3Buffer[0], bagtiles, sizeof(bagtiles));*/
+	memcpy(&BG3Buffer[0], bagtiles, sizeof(bagtiles));
 
 	//Copy mapping
 	//memcpy(&OAM_Data[0],balltiler1,sizeof(balltiler1)); //Each line is 0x20 words, or 0x40 bytes

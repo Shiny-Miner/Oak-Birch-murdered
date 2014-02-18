@@ -12,6 +12,8 @@
 #define SIZE_DOUBLE                     0x0200
 #define MODE_NORMAL                0x0000
 #define MODE_TRANSPARENT      0x0400
+#define MODE_TRANSPARENT_HALF      0x0500
+#define MODE_TRANSPARENT_BOTH      0x0600
 #define MODE_WINDOWED           0x0800
 #define MOSAIC                               0x1000
 #define COLOR_16                           0x0000
