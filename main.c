@@ -282,10 +282,9 @@ const u8 monText[36] = { //Do you choose this POKEMON?
 
 void initBG0WithText()
 {
-	//loadMurderText();
-	loadSemiTransText();
-	writeBoxToTilemap(1,3);
-	somethingPicbox(1,2,3,4);
+	loadMurderText();
+	//loadSemiTransText();
+	//somethingPicbox(1,2,3,4);
 	iDunno(0x0809D6D4+1);
 
 	loadStandardBoxBorders(532,0);
@@ -298,8 +297,8 @@ void loadChoiceText()
 	int box = textboxBGInit(textboxData);
 	enableBox(box);
 	prepTextSpace(0,0);
-        loadNormalTextbox(box,1,choiceText,0,1,0,0);
-	writeBoxToTilemap(box,3);
+        loadNormalTextbox(0,1,choiceText,0,1,0,0);
+	writeBoxToTilemap(0,3);
 }
 
 void loadMurderText()
@@ -307,8 +306,10 @@ void loadMurderText()
  	int box = textboxBGInit(textboxData);
 	enableBox(box);
 	prepTextSpace(0,0);
-        loadNormalTextbox(box,1,murderText,0,1,0,0);
-	writeBoxToTilemap(box,2);
+	//writeBoxToTilemap(box,3);
+
+        loadNormalTextbox(0,1,murderText,0,1,0,0);
+	writeBoxToTilemap(0,3);
 }
 
 void loadSemiTransText()
