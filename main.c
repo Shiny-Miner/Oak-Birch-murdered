@@ -175,6 +175,13 @@ void main()
 	{
 		if (fadeScreenDone == 0) 
 		{
+			if(activeBall == 0)
+				LASTRESULT = starterUno;
+			else if(activeBall == 1)
+				LASTRESULT = starterDos;
+			else
+				LASTRESULT = starterTres;
+
 			storeCallback(nullCallback);
 			if (globalVars != 0) 
 			{
