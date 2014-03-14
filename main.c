@@ -21,9 +21,9 @@
 #define OBJData ((u16 *) 0x6010000)
 #define MenuBG  ((u16 *) 0x600F800)
 
-#define starterUno 	10
-#define starterDos 	128
-#define starterTres	206
+#define starterUno 	440
+#define starterDos 	443
+#define starterTres	446
 
 void InitializeSprites();
 void GetInput();
@@ -64,7 +64,7 @@ void init() {
 #endif
 #endif
 
-unsigned char starters[3] = {19, 129, 11};
+unsigned int starters[3] = {starterUno, starterDos, starterTres};
 
 void init2() {
 
@@ -149,7 +149,7 @@ void main()
 		{
 			if (waitForSound() == 0) 
 			{
-				playFanfare(WINSONG);
+				//playFanfare(WINSONG);
 				currentLoop++;
 			}
 		}
