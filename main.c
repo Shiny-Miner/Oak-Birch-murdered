@@ -21,9 +21,9 @@
 #define OBJData ((u16 *) 0x6010000)
 #define MenuBG  ((u16 *) 0x600F800)
 
-#define starterUno 	440
-#define starterDos 	443
-#define starterTres	446
+#define starterUno 	1
+#define starterDos 	4
+#define starterTres	7
 
 void InitializeSprites();
 void GetInput();
