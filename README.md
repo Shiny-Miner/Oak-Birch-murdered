@@ -16,4 +16,4 @@ starteruno is the first ball pokemon and so on, I've set them for bulbasaur, cha
 Here 1 is id for bulbasaur as you can see, if i change it to 2, an ivysaur will be shown in briefcase
 # A screenshow
 <image src="test_1723638189944.png"> </image>
-<image src ="Screenrecorder-2024-08-14-17-09-24-235.mp4"></image>
+![](Screenrecorder-2024-08-14-17-09-24-235.mp4)
