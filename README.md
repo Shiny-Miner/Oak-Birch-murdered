@@ -1,5 +1,6 @@
+### Sasta advertisement mere server ka; for any queries join : https://discord.com/invite/axNX3rhR9K
 # What's this?
-#### This code adds professor birch's briefcase and enables us to create emerald style starter selection in pokemon fire red
+#### This code adds professor birch's briefcase and enables us to create RSE (Ruby/Sapphire/Emerald) style starter selection in pokemon fire red.
 ## This code is created by Shiny Quagsire and it uses a very old template.
 # How to compile?
 Open the repo in powershell window using cd for shift + right click of mouse and selecting open powershell window here. 
