@@ -15,4 +15,4 @@ In main.c at line 24 , this part is given:
 starteruno is the first ball pokemon and so on, I've set them for bulbasaur, charmander and squirtle. Change these numbers 1,4,7 for Pokemon's id in pokedex.
 Here 1 is id for bulbasaur as you can see, if i change it to 2, an ivysaur will be shown in briefcase
 # A screenshow
-![test_1723638189944.png]
+<image src="test_1723638189944.png"> </image>
