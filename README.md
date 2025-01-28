@@ -19,4 +19,8 @@ Here 1 is id for bulbasaur as you can see, if i change it to 2, an ivysaur will 
 <image src="test_1723638189944.png"> </image>
 
 
-- [Video Example](https://media.discordapp.net/attachments/1082555840281714789/1273245907881820171/Screenrecorder-2024-08-14-17-09-24-235.mp4?ex=66bf3ba8&is=66bdea28&hm=76de2d1264776fdf6e9b3e43a8099b1fc624dcf0e367fc7b18844ee12d0e2770&)
+
+https://github.com/user-attachments/assets/f5a4ae95-6860-4e41-8fab-3cc87249ca9a
+
+
+
